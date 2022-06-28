@@ -1,0 +1,101 @@
+#mainNav{
+    background: #ccc;
+    color: #111;
+}
+#mainNav ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+#mainNav li{
+    display: inline;
+    padding: 5px 10px;
+}
+#mainNav a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+#mainNav li:hover{
+    background: #aaa;
+}
+#sect1{
+    background-image:url(../img/grey\ wooden\ panel.jpg);
+    background-position: center center;
+    height: 500px;
+    text-align: center;
+}
+#sect1 h2{ 
+    font-size: 40px;
+    color: white;
+    line-height: 1.6em;
+    text-align:center;
+    background: #000;
+}
+#mainSect{
+    float: right;
+    width: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-right: 2px solid #333;
+    box-sizing: border-box;
+}
+.container{
+    width:auto;
+    margin: auto;
+    font-size: 25px;
+    color: #818181;
+    overflow: hidden;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background: black;
+    border-top: 1px solid black;
+    color: #000;
+    font-size: 21px;
+    line-height: 1.6em;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#legend{
+text-align: center;
+font-size: 36px;
+font-weight: 100px;
+color: cadetblue;
+}
+#fieldset{
+    background-color: #000;
+    color: white;
+}
+#button:hover{
+    background-color: cadetblue;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+@media(max-width:600px){
+    #mainSect, #sidebar{
+        width:100%;
+        float: none;
+        border: none;
+    }
+}

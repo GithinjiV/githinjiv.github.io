@@ -1,0 +1,81 @@
+/* .main{
+
+    background-color:rgb(210,107,40);
+}
+
+body{
+    margin-top: 50px;
+}
+
+h5{
+    font-family: 'Lucida Console';
+    font-size: 16px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+p{
+    margin: 0px;
+    font-size: 12px;
+    width: auto;
+}
+
+.icons{
+    text-align: center;
+    color: black;
+    margin-top: -30px;
+}
+
+#btn {
+  padding: 4px;
+  width: 100px;
+  background-color: lawngreen;
+  border: none;
+}
+  
+  */
+
+
+
+p{
+    font-size: 12px;
+}
+/* .container{
+} */
+.card{
+  margin-top: 30px;
+  box-shadow: 0px 1px rgba(210, 117, 40, 0.979) inset;
+}
+  #btn1{
+    color: white;
+    padding: 4px 10px;
+    block-size: 30px;
+    width: 300px !important;
+    background-color: rgba(197, 252, 0, 0.904);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+  }
+  #btn2{
+    color: white;
+    background-color:rgba(210, 117, 40, 0.979);
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+  #btn3{
+    color: white;
+    padding: 0px 20px;
+    block-size: 30px;
+    width: 150px;
+    background-color:rgba(210, 117, 40, 0.979);
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
