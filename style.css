@@ -479,12 +479,17 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .contact-left i{
+        font-size: 18px;
+    }
+    .contact-left p a{
+        font-size: 18px;
+    }
     .btn.contact-btn{
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
 }
 
 span#msg{
