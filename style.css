@@ -386,7 +386,12 @@ footer .social li a:hover {
     color: #fff;
     transform: translateY(-2px);
 }
-  
+
+.icon:hover:has(.fa-x-twitter){
+    background: #000;
+}
+
+
 .sub-footer {
     padding: 60px 0px;
     border-top: 1px solid rgba(250,250,250,0.3);
