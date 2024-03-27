@@ -20,7 +20,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <h1 class="logo">Vincent.<h2>
+                <h2 class="logo">Vincent.<h2>
                 <ul id="sidemenu">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
@@ -157,7 +157,7 @@
     <!-- Footer section begins here -->
     <footer class="container">
         <div class="sub-footer">
-            <p>Copyright &copy; 2023</p>
+            <p>Copyright &copy; <span id="year"></span></p>
             <a rel="nofollow" href="#">Vincent</a>
             <ul class="social ">
                 <li><a href="https://github.com/GithinjiV" class="icon"><i class="fab fa-github"></i></a></li>
@@ -169,6 +169,8 @@
     </footer>
 
     <script>
+        let year = document.querySelector("span#year");
+        year.innerHTML = new Date().getFullYear();
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
