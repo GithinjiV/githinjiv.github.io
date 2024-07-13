@@ -279,11 +279,11 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s;
+    transition: height 0.5s;
 }
 
 .btn:hover{
-    background: #daa520;
+    transition: height 0.5s;
 }
 
 /* Contact styling begins here */
