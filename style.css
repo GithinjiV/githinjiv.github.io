@@ -196,7 +196,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover{
-    background: #daa520;
+    background: #854d0e;
     transform: translateY(-10px);
 }
 
@@ -424,7 +424,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 914px){
     #header{
         background-image: url(images/mobile-bg.png);
     }

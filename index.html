@@ -15,13 +15,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vincent's Portfolio</title>
     <script src="https://kit.fontawesome.com/73c8968b0d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <h1 class="logo">Vincent.<h1>
+                <h1 class="logo font-bold text-lg">Vincent.<h1>
                 <ul id="sidemenu">
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
@@ -32,8 +33,8 @@
                 <i class="fas fa-bars"onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Full Stack Web Developer</p>
-                <h1>Hello. I'm Vincent.</h1>
+                <p class="text-md font-semibold">Full Stack Web Dev</p>
+                <h1 class="font-bold">Hello. I'm Vincent.</h1>
             </div>
         </div>
     </div>
@@ -47,26 +48,49 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>As a skilled software engineer, I specialize in crafting beautiful, user-friendly web interfaces and writing clean, reusable code. With proficiency in Ruby, JavaScript, and frameworks such as Ruby on Rails, React, and Tailwind CSS, I carefully select the right tools to meet the unique needs of each project. My focus on creating efficient, maintainable solutions ensures that my work not only meets current demands but is also scalable for the future.</p>
+                    <p>As a skilled software engineer, I specialize in crafting beautiful, user-friendly web interfaces and writing clean, reusable code. With proficiency in Ruby, JavaScript, and frameworks such as Ruby on Rails, React, and Tailwind CSS, I carefully select the right tools to meet the unique needs of each project. My focus on creating simple yet efficient maintainable solutions ensures that my work not only meets current demands but is also scalable for the future.</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
-                            <li><span>E-commerce</span><br>Developing store solutions for online businesses </li>
-                            <li><span>SEO</span><br>Search engine optimization to increase online presence </li>
+                            <li>
+                                <span>Front end UI/UX</span>
+                                <br>Developing responsive and user interactive web interfaces
+                            </li>
+                            <li><span>Backend and API endpoints</span><br> 
+
+                            </li>
+                            <li><span>CI/CD</span><br>Minimize time taken from software development to deployment </li>
                         </ul>
                     </div>
-                    <!-- <div class="tab-contents" id="experience">
+                    <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>June 2022 - September 2022</span><br>Internship at Jovitec Technologies</li>
-                            <li><span>2020 - November 2023</span><br>CTO at <span>The Uncommon Company</span></li>
-                            <li><span>November 2023 - Date</span><br>Senior Developer at <span>Genteel Logistics Company Limited</span></li>
+                            <li>
+                                <span>June 2022 - September 2022<br>Internship at Jovitec Technologies Company</span>
+                                <ul>
+                                    <li>Collaborated with a team of designers and developers to create a responsive and user-friendly front end design for Jovitec Technologies' corporate website.</li>
+                                    <li>Worked closely with the back end development team to integrate dynamic content and ensure optimal performance of the website.</li> 
+                                </ul>
+                            </li>
+                            <li>
+                                <span>January 2023 - November 2023<br>IT consultant at The Uncommon Company</span>
+                                <ul>
+                                    <li>
+                                        Led the software operations and maintenance for Uncommon Traders, ensuring all systems functioned efficiently and met business needs.
+                                    
+                                    </li>
+                                    <li>Managed and maintained key software platforms, contributing to an increase in operational efficiency through optimized workflows.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>November 2023 - Date<br>Full Stack Developer at Genteel Logistics Company Limited</span>
+                                
+                            </li>
                         </ul>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,24 +100,21 @@
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
+            <div class="services-list ">
                 <div>
                     <i class="fa-solid fa-user"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>Give your users an unforgettable experience when they interact with your platform.</p>
-                    <a href="#">Know More</a>
+                    <h2 class="font-bold">UI/UX Frontend Design</h2>
+                    <p>Developing responsive and interactive user interfaces</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web App Development</h2>
-                    <p>Your one stop shop for personal and e-commerce websites. Get dialed in.</p>
-                    <a href="#">Know More</a>
+                    <p>Web applications do not have to be hectic and tiresome. </p>
                 </div>
                 <div>
                     <i class="fa-solid fa-globe"></i>
-                    <h2>SEO Optimization</h2>
-                    <p>Monitor activity on your website to discover what to or not to do.</p>
-                    <a href="#">Know More</a>
+                    <h2>Backend development</h2>
+                    <p>Database maintainance and all things backend</p>
                 </div>
             </div>
         </div>
@@ -109,7 +130,7 @@
                     <div class="layer">
                         <h3>Create Your Own Wedding</h3>
                         <p>Click below to open in new tab</p>
-                        <a href="https://test.bridewedsgroom.com/robert-weds-wendy/57" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://bridewedsgroom.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -129,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="/Vincent Githinji's CV.pdf" target="_blank" class="btn">See more</a>
         </div>
     </div>
 
